@@ -1,4 +1,4 @@
-Approximate policy mirror descent (APMD) introduced (Lan [2022])
+Approximate policy mirror descent (APMD) introduced by Guanghui Lan [2022]
 
 To evaluate the impact of varying hyperparameter configurations and the choice of different
 convex regularizers in both stochastic and deterministic settings of Approximate policy mirror descent(APMD) introduced by Guanghui Lan [2022], we have designed a
