@@ -9,7 +9,7 @@ in an unregularized setting. The aim of considering an unregularized optimal val
 and policy is to assess how regularized and potentially biased frameworks perform
 compared to the actual problem setup.
 This experiment has been conducted in both exact and stochastic frameworks. The experiment
-utilizes the Approximate Policy Mirror Descent algorithm, as detailed in (4.1.5).
+utilizes the Approximate Policy Mirror Descent algorithm.
 APMD is employed with different convex functions and hyperparameter settings to explore
 their effects on learning dynamics and overall performance. Also, entropy-regularized
 PMD as an instance of APMD has been implemented.
@@ -21,8 +21,5 @@ reliably each setup approaches the optimal policy during the iterative optimizat
 The third metric is expected entropy, which quantifies the entropy of each obtained
 policy, allowing us to compare the relative degree of exploration across setups. The final
 metric evaluates the distribution mismatch between steady-state distribution of optimal
-policy and returned policies, as described in (3.4), offering insights into how closely these
+policy and returned policies, offering insights into how closely these
 two distributions over state space align.
-
-For more information refer to the uploaded pdf file "Mirror Descent Methods in
-Reinforcement Learning", for information regarding the experimental setup, see chapter 6.
